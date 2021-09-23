@@ -1,0 +1,18 @@
+Submitted By:            Evie V. <evie at uwueviee dot live>
+Date:                    2021-09-23
+Initial Package Version: 1.22
+Upstream Status:         Not Applicable
+Origin:                  Self
+Description:             Changes the install prefix to be /usr and statically links the executable.
+
+index 5a15d4b..71bd129 100755
+--- a/buildcmd.sh
++++ b/buildcmd.sh
+@@ -2,6 +2,6 @@
+ 
+ mkdir build
+ cd build
+-cmake -DCMAKE_BUILD_TYPE=Release ..
++cmake -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/usr -DBUILD_SHARED_LIBS=OFF ..
+ cd ..
+ make -j $(getconf _NPROCESSORS_ONLN) -C build
