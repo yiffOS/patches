@@ -1,6 +1,6 @@
 # patches
 
-Various patches for yiffOS packages
+Various patches for yiffOS packages.
 
 ### linux:   
 * linux/good_panic_message - Changes the kernel panic message to be better   
@@ -8,3 +8,6 @@ Various patches for yiffOS packages
 
 ### glibc:   
 * glibc/fhs-runtime - Patches GLibc for FHS runtime directory compilance - From [Linux From Scratch](https://www.linuxfromscratch.org/)
+
+### pahole:
+* pahole/buildcmd-prefix-and-static - Changes the install prefix to be /usr and statically links the executable.
