@@ -12,3 +12,6 @@ Various patches for yiffOS packages.
 
 ### pahole:
 * pahole/buildcmd-prefix-and-static - Changes the install prefix to be /usr and statically links the executable.
+
+### cpio:
+* cpio/src-global.c-drop-duplicate-definition-of-program_na - Removes duplicate program_name - From [Gentoo](https://bugs.gentoo.org/705900)
