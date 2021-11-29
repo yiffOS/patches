@@ -3,7 +3,7 @@
 Various patches for yiffOS packages.
 
 ### linux:   
-* linux/good_panic_message - Changes the kernel panic message to be better   
+* linux/good_panic_message - Changes the kernel panic message to be better
 * linux/config - Kernel compile config - Partly from [Arch Linux](https://archlinux.org/)
 * linux/package-kernel.sh - Kernel packaging script
 
@@ -15,3 +15,6 @@ Various patches for yiffOS packages.
 
 ### cpio:
 * cpio/src-global.c-drop-duplicate-definition-of-program_na - Removes duplicate program_name - From [Gentoo](https://bugs.gentoo.org/705900)
+
+### neofetch
+* neofetch/include-yiffos - Adds yiffOS's logo and the bulge package manager

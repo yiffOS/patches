@@ -1,0 +1,69 @@
+Submitted By: 		Evie V. <evie@uwueviee.live>
+Date:			2021-11-29
+Inital Package Version:	7.1.0
+Upstream Status:        Not Merged
+Origin:                 Self
+Description:		Adds yiffOS's ascii logo and adds bulge package count support
+
+--- a/neofetch
++++ b/neofetch
+@@ -798,7 +798,7 @@
+ #       SmartOS, Solus, Source_Mage, Sparky, Star, SteamOS, SunOS,
+ #       openSUSE_Leap, openSUSE_Tumbleweed, openSUSE, SwagArch, Tails,
+ #       Trisquel, Ubuntu-Budgie, Ubuntu-GNOME, Ubuntu-MATE, Ubuntu-Studio,
+-#       Ubuntu, Venom, Void, Obarun, windows10, Windows7, Xubuntu, Zorin,
++#       Ubuntu, Venom, Void, Obarun, windows10, Windows7, Xubuntu, yiffOS, Zorin,
+ #       and IRIX have ascii logos
+ # NOTE: Arch, Ubuntu, Redhat, and Dragonfly have 'old' logo variants.
+ #       Use '{distro name}_old' to use the old logos.
+@@ -1504,6 +1504,7 @@
+             has alps       && tot alps showinstalled
+             has butch      && tot butch list
+             has mine       && tot mine -q
++            has bulge && tot bulge list
+ 
+             # Counting files/dirs.
+             # Variables need to be unquoted here. Only Bedrock Linux is affected.
+@@ -4940,7 +4941,7 @@
+                                 SmartOS, Solus, Source_Mage, Sparky, Star, SteamOS, SunOS,
+                                 openSUSE_Leap, openSUSE_Tumbleweed, openSUSE, SwagArch, Tails,
+                                 Trisquel, Ubuntu-Budgie, Ubuntu-GNOME, Ubuntu-MATE, Ubuntu-Studio,
+-                                Ubuntu, Venom, Void, Obarun, windows10, Windows7, Xubuntu, Zorin,
++                                Ubuntu, Venom, Void, Obarun, windows10, Windows7, Xubuntu, yiffOS, Zorin,
+                                 and IRIX have ascii logos
+ 
+                                 NOTE: Arch, Ubuntu, Redhat, and Dragonfly have 'old' logo variants.
+@@ -10305,6 +10306,32 @@
+            `-/osyhddddhyso/-`
+ EOF
+         ;;
++
++        "yiffOS"*)
++                    set_colors 93 92
++                    read -rd '' ascii_data <<'EOF'
++${c1}            NK
++             NxKXW
++             WOlcoXW
++             0olccloxNW
++             XxllllllloxOKNW
++             Nklllllllllllodk0XWW
++            N0dllllllllllllllodxOKNW
++          WKxlllllllllllllllllllooxOKN
++        WKdllllllllllllllooooooooooooo
++       Nxllllllllllllllloooooooooo${c2}oooo
++${c1}     XXNOolllllllllllloooooooooo${c2}oooooo
++${c1}   WX0xolllllllllllooooooooooo${c2}oooooooo
++${c1} XWN0xolllllllllloooooooo${c2}ooooooooooooo
++${c1}   Kkdolllllllooooddddd${c2}doooooooooooddo
++${c1}        K00XNW${c2}      WX0xdooooooddddddd
++                       WXOxdoooooodddd
++                          WXOxdddddddd
++                                NX0ddd
++                                  WN0d
++EOF
++        ;;
++
+                 "IRIX"*)
+                     set_colors 4 7
+                     read -rd '' ascii_data <<'EOF'
+
