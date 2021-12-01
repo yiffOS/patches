@@ -28,3 +28,6 @@ Various patches for yiffOS packages.
 
 ### expect
 * expect/fix-destdir - Fixes not being able to set the DESTDIR variable by removing an empty declaration
+
+### binutils
+* binutils/binutils-2.37-upstream_fix-1 - Fix file descriptors not closing if there is no archive plugin file descriptor - From [Linux From Scratch](https://www.linuxfromscratch.org/)
