@@ -1,0 +1,16 @@
+Submitted By:            Evie V. <evie@uwueviee.live>
+Date:                    2021-12-01
+Initial Package Version: 8.1
+Upstream Status:         Not submitted
+Description:             Remove DESTDIR empty declare in Makefile that breaks setting the DESTDIR environment variable
+
+--- a/Makefile
++++ b/Makefile
+@@ -66,9 +66,6 @@
+ man3dir = $(mandir)/man3
+-
+-# Support an alternate destination root directory for package building
+-DESTDIR =
+ 
+ # Programs to make tags files.
+ ETAGS = etags
