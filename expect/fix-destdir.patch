@@ -1,0 +1,17 @@
+Submitted By:            Evie V. <evie@uwueviee.live>
+Date:                    2021-12-01
+Initial Package Version: 5.45.5
+Upstream Status:         Not submitted
+Description:             Remove an empty declare for DESTDIR in the Makefile that breaks setting the DESTDIR environment variable
+
+--- a/Makefile
++++ b/Makefile
+@@ -117,8 +117,6 @@
+ datadir		= ${prefix}/share
+ mandir		= /usr/share/man
+ includedir	= ${prefix}/include
+-
+-DESTDIR		=
+ 
+ PKG_DIR		= $(PACKAGE_NAME)$(PACKAGE_VERSION)
+ pkgdatadir	= $(datadir)/$(PKG_DIR)

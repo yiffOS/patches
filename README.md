@@ -25,3 +25,6 @@ Various patches for yiffOS packages.
 
 ### readline
 * readline/fix-destdir - Fixes not being able to set the DESTDIR variable by removing an empty declaration
+
+### expect
+* expect/fix-destdir - Fixes not being able to set the DESTDIR variable by removing an empty declaration
