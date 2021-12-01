@@ -21,6 +21,7 @@ Various patches for yiffOS packages.
 
 ### bzip2
 * bzip2/install-docs - Installs the pre-formatted documentation - From [Linux From Scratch](https://www.linuxfromscratch.org/)
+* bzip2/add-destdir-support - Add DESTDIR support to the Makefile
 
 ### readline
 * readline/fix-destdir - Fixes not being able to set the DESTDIR variable by removing an empty declaration
