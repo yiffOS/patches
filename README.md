@@ -31,3 +31,6 @@ Various patches for yiffOS packages.
 
 ### binutils
 * binutils/binutils-2.37-upstream_fix-1 - Fix file descriptors not closing if there is no archive plugin file descriptor - From [Linux From Scratch](https://www.linuxfromscratch.org/)
+
+### perl
+* perl/perl-upstream_fixes - Fixes error with GDBM 1.20+ - From [Linux From Scratch](https://www.linuxfromscratch.org/)
