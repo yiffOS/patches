@@ -37,3 +37,6 @@ Various patches for yiffOS packages.
 
 ### kbd
 * kbd/backspace - Keeps backspace and delete consistent in keymaps - From [Linux From Scratch](https://www.linuxfromscratch.org/)
+
+### systemd
+* systemd/systemd-upstream_fixes - Fixes a security vulnerability - From [Linux From Scratch](https://www.linuxfromscratch.org/)
