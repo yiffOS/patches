@@ -34,3 +34,6 @@ Various patches for yiffOS packages.
 
 ### perl
 * perl/perl-upstream_fixes - Fixes error with GDBM 1.20+ - From [Linux From Scratch](https://www.linuxfromscratch.org/)
+
+### kbd
+* kbd/backspace - Keeps backspace and delete consistent in keymaps - From [Linux From Scratch](https://www.linuxfromscratch.org/)
