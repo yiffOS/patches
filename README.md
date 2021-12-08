@@ -43,3 +43,6 @@ Various patches for yiffOS packages.
 
 ### efivar
 * efivar/gcc_9-1 - Patch to fix issues with building when using GCC 9+ - From [Linux From Scratch](https://www.linuxfromscratch.org/)
+
+### refind
+* refind/gnu-efi - Patch refind to work with newer GNU-EFI versions - From [Debian](https://sources.debian.org/patches/refind/0.13.2-1/gnu-efi.patch/)
