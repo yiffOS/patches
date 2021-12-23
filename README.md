@@ -46,3 +46,6 @@ Various patches for yiffOS packages.
 
 ### refind
 * refind/gnu-efi - Patch refind to work with newer GNU-EFI versions - From [Debian](https://sources.debian.org/patches/refind/0.13.2-1/gnu-efi.patch/)
+
+### lynx
+* lynx/CVE-2021-38165 - Patch to fix CVE-2021-38165 - From [Arch Linux](https://archlinux.org/) [FS#71764](https://bugs.archlinux.org/task/71764)
