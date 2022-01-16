@@ -52,3 +52,4 @@ Various patches for yiffOS packages.
 
 ### httpd
 * httpd/yiffOS-layout - Adds yiffOS file layout for httpd
+* httpd/website - The default website for yiffOS's httpd
