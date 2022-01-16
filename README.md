@@ -49,3 +49,6 @@ Various patches for yiffOS packages.
 
 ### lynx
 * lynx/CVE-2021-38165 - Patch to fix CVE-2021-38165 - From [Arch Linux](https://archlinux.org/) [FS#71764](https://bugs.archlinux.org/task/71764)
+
+### httpd
+* httpd/yiffOS-layout - Adds yiffOS file layout for httpd
